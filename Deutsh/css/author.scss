@@ -1,0 +1,299 @@
+.author {
+  background: white;
+  position: relative;
+}
+
+.rec_author {
+  position: absolute;
+  top: 25%;
+  right: 8%;
+}
+
+.plus {
+  position: absolute;
+  top: -1%;
+  right: 5%;
+}
+
+.plus_second {
+  position: absolute;
+  top: 21%;
+  left: 6%;
+}
+
+.h_author {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+
+  span {
+    font-size: 64px;
+    color: #333333;
+    font-weight: bold;
+    border-bottom: 2px solid #7746D7;
+    padding-bottom: 1%;
+  }
+
+  p {
+    font-size: 64px;
+    color: #333333;
+    margin-left: 15px;
+  }
+}
+
+
+.author_wrap {
+  display: flex;
+  margin-top: 90px;
+}
+
+.author_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 50%;
+}
+
+.author_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 50%;
+}
+
+.two_name {
+  span {
+    font-size: 36px;
+    color: #7746D7;
+    font-weight: bold;
+  }
+}
+
+.first_name {
+  span {
+    font-size: 36px;
+    color: #7746D7;
+  }
+}
+
+.name_info {
+  width: 70%;
+  margin-top: 40px;
+
+  span {
+    font-size: 17px;
+    color: #333333;
+  }
+}
+
+.h_program {
+  p {
+    font-size: 64px;
+    color: #333333;
+    font-weight: bold;
+
+    span {
+      font-size: 64px;
+      color: #333333;
+      font-weight: normal;
+    }
+  }
+}
+
+.program_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+}
+
+.list_style {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  width: 80%;
+
+  li {
+    list-style-image: url("../img/icons/line.png");
+    list-style-position: outside;
+    margin-top: 5px;
+
+    p {
+      font-size: 17px;
+      color: #333333;
+      font-weight: bold;
+
+      span {
+        font-size: 17px;
+        color: #333333;
+        font-weight: normal;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+
+.press {
+  display: flex;
+  width: 530px;
+  background: #7746D7;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 8%;
+  border-radius: 30px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.line_press {
+  width: 1px;
+  height: 23px;
+  background-color: white;
+}
+
+.img_program {
+  display: flex;
+  align-items: center;
+}
+
+.pres {
+  font-size: 17px;
+  color: white;
+}
+
+.learn {
+  margin-top: 145px;
+}
+
+.h_learn {
+  display: flex;
+  justify-content: center;
+
+  p {
+    font-size: 64px;
+    color: #333333;
+    font-weight: bold;
+    border-bottom: 1px solid #7746D7;
+    padding-bottom: 2%;
+  }
+
+  span {
+    font-size: 64px;
+    color: #333333;
+    font-weight: normal;
+    margin-left: 15px;
+  }
+}
+
+.learn_wrap {
+  display: flex;
+}
+
+.img_learn {
+  flex: 0 0 50%;
+}
+
+.list_learn {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #A38BFF;
+    padding: 6% 4%;
+    border-radius: 30px;
+
+    li {
+      padding: 4%;
+      border-top: 1px solid #7746D7;
+
+      span {
+        font-size: 21px;
+        color: #333333;
+      }
+    }
+
+    li:first-child {
+      border-top: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .rec_author, .plus, .plus_second, .rec_two, .img_program, .img_learn {
+    display: none;
+  }
+
+
+  .author_wrap {
+    flex-direction: column;
+    margin: 0;
+  }
+  .author_info {
+    align-items: center;
+  }
+  .name_info {
+    text-align: center;
+  }
+  .first_name {
+    text-align: center;
+  }
+  .h_program {
+    text-align: center;
+  }
+
+  .learn_wrap {
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .list_style {
+    width: 100%;
+    flex: 0 0 100%;
+    justify-content: center;
+
+    li {
+      list-style: none;
+    }
+  }
+  .learn {
+    margin-top: 45px;
+  }
+  .list_learn {
+    flex: 0 0 100%;
+
+    ul {
+      width: 100%;
+    }
+  }
+  .h_learn, .h_program, .h_author {
+    p {
+      font-size: 36px;
+    }
+
+    span {
+      font-size: 36px;
+    }
+  }
+  .press {
+    width: 80%;
+    &:hover{
+      transform: none;
+      box-shadow: 0 0 10px #7746D7;
+    }
+  }
+
+  .line_press {
+    margin: 0 2%;
+  }
+}
+

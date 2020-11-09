@@ -1,0 +1,166 @@
+.learn_wrap {
+  background: #ece9ee;
+  margin-bottom: 2%;
+  border-radius: 30px;
+}
+
+.h_learn {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 2% 0;
+}
+.h_learn span {
+  font-size: 64px;
+  color: #333333;
+  font-weight: normal;
+}
+.h_learn p {
+  font-size: 64px;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.graphic_learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 35%;
+  position: relative;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data span {
+  font-size: 17px;
+  color: #7746D7;
+  font-weight: bold;
+}
+
+.rec_data {
+  display: flex;
+  position: absolute;
+  top: 48%;
+  left: 3%;
+}
+
+.ellipse_data {
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+.form_learn {
+  flex: 0 0 65%;
+  padding: 2% 15px;
+}
+.form_learn form {
+  width: 100%;
+}
+.form_learn form label {
+  width: 80%;
+  margin-top: 15px;
+  display: flex;
+  border: none;
+  align-items: center;
+}
+.form_learn form label input {
+  width: 80%;
+  padding: 2% 10px;
+  font-size: 17px;
+  color: #999999;
+  outline: none;
+  border-radius: 30px;
+  border: 2px solid #A38BFF;
+}
+.form_learn form label input:focus::placeholder {
+  color: transparent;
+}
+.form_learn form button {
+  font-size: 17px;
+  color: white;
+  padding: 1% 3%;
+  border: 1px solid #7746D7;
+  border-radius: 30px;
+  background: #7746D7;
+  cursor: pointer;
+  outline: none;
+  margin-top: 15px;
+}
+.form_learn form button:hover {
+  box-shadow: 0 0 10px #7746D7;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+.action span {
+  font-size: 17px;
+  color: #333333;
+  font-weight: normal;
+}
+.action .online {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.radio {
+  flex: 0 0 10%;
+  width: 28px;
+  height: 28px;
+  border-color: #7746D7;
+}
+
+.robo {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.kassa {
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1750px) {
+  .plus, .plus_second {
+    display: none;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .info_course, .img_course {
+    flex: 0 0 50%;
+  }
+
+  .dots, .dots_two, .rec_one {
+    display: none;
+  }
+
+  .graphic_learn {
+    display: none;
+  }
+
+  .target {
+    margin-top: 15px;
+  }
+  .target .h {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .action span {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=learn.css.map */
