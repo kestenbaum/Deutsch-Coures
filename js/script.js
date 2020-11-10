@@ -8,9 +8,9 @@ $('.burger_wrap').on('click', function () {
 
 window.addEventListener('resize', function () {
     let width = innerWidth
-    if (width < 1165) {
+    if (width < 1150) {
         document.getElementById('button').innerText = 'DOWNLOAD'
-    } else if (width > 1165) {
+    } else if (width > 1150) {
         document.getElementById('button').innerText = 'Скачать программу повышения квалификации'
     }
 })
@@ -22,12 +22,21 @@ $(document).ready(function () {
         infinite: true,
         speed: 500,
         easing: 'ease',
-        responsive: [{
-            breakpoint: 700,
-            settings: {
-                slidesToShow: 1,
+        responsive: [
+            {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 420,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
             }
-        }]
+        ]
     })
 })
 
