@@ -447,7 +447,7 @@
 
 .line {
   display: inline-block;
-  width: 363px;
+  width: 80%;
   height: 2px;
   background-color: white;
   margin-top: 24px;
@@ -1494,6 +1494,11 @@
   .target_img {
     display: none;
   }
+  .target_info{
+    p{
+      width: 80%;
+    }
+  }
   .author_img {
     img {
       width: 150px;
@@ -1541,9 +1546,7 @@
       margin: 0;
     }
   }
-  body {
-    overflow-x: hidden;
-  }
+
 }
 
 
