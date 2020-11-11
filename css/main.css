@@ -111,6 +111,10 @@
   justify-content: flex-end;
   height: 44px;
 }
+.but_register span {
+  font-size: 14px;
+  color: white;
+}
 
 .reg {
   margin-right: 5%;
