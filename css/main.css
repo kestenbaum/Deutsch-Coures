@@ -117,6 +117,9 @@
   font-size: 14px;
   color: white;
 }
+.but_register span:hover {
+  color: #333333;
+}
 
 .reg {
   margin-right: 5%;
