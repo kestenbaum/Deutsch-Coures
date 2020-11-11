@@ -6,15 +6,6 @@ $('.burger_wrap').on('click', function () {
 })
 
 
-// window.addEventListener('resize', function () {
-//     let width = innerWidth
-//     if (width < 1150) {
-//         document.getElementById('button').innerText = 'DOWNLOAD'
-//     } else if (width > 1150) {
-//         document.getElementById('button').innerText = 'Скачать программу повышения квалификации'
-//     }
-// })
-
 $(document).ready(function () {
     $('.slider_wrap').slick({
         slidesToShow: 3,
