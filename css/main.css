@@ -8,6 +8,7 @@
   padding: 0;
   font-size: 0;
   transition: all linear 0.4s;
+  font-family: CorsicaMX, sans-serif;
 }
 
 .container {
@@ -1029,6 +1030,10 @@
   .dots_two, .dots, .rec_one, .rec_two, .plus, .plus_second, .rec_author {
     display: none;
   }
+
+  .author_wrap, .learn {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 1150px) {
   .img_course, .img_learn, .com, .ellipse_data, .img_program, .line_press {
@@ -1041,6 +1046,9 @@
   }
   .press img {
     display: none;
+  }
+  .press span {
+    text-align: center;
   }
 
   .info_course {
@@ -1118,6 +1126,18 @@
   .h_author, .author_wrap {
     margin: 0;
     padding-top: 2%;
+  }
+
+  .ul_info, .target_wrap {
+    padding: 2% 0;
+  }
+
+  .comment {
+    margin-top: 2%;
+  }
+
+  .learn_wrap {
+    margin-bottom: 2%;
   }
 }
 @media screen and (max-width: 923px) {
@@ -1256,6 +1276,14 @@
   .comment {
     margin: 30px 0;
   }
+
+  .name_info {
+    margin-top: 0;
+  }
+
+  .first_name {
+    margin-bottom: 2%;
+  }
 }
 @media screen and (max-width: 650px) {
   .logo_form {
@@ -1282,6 +1310,7 @@
 
   .name_info {
     text-align: center;
+    margin-bottom: 2%;
   }
 
   .form_main form {
@@ -1311,6 +1340,10 @@
 
   .line_press {
     margin: 0 5px;
+  }
+
+  .info_t {
+    font-size: 18px;
   }
 
   .banner_wrap {
@@ -1361,6 +1394,20 @@
 
   .first_name {
     text-align: center;
+  }
+
+  .target .h {
+    margin: 4% 0;
+  }
+  .target .line {
+    margin: 0 0 4% 0;
+  }
+
+  .target_info {
+    margin: 0;
+  }
+  .target_info p {
+    margin: 0;
   }
 
   body {
