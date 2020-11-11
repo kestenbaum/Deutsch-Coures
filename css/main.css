@@ -274,6 +274,25 @@
   z-index: 0;
 }
 
+.target_h {
+  display: flex;
+  margin-bottom: 8%;
+}
+.target_h .trg {
+  font-size: 64px;
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+  margin: 0;
+}
+.target_h span {
+  font-size: 64px;
+  color: white;
+  font-weight: normal;
+  margin-left: 15px;
+}
+
 .course_wrap {
   display: flex;
 }
@@ -391,17 +410,8 @@
   color: white;
 }
 
-.line {
-  display: inline-block;
-  width: 80%;
-  height: 2px;
-  background-color: white;
-  margin-top: 24px;
-}
-
 .target_info {
   display: flex;
-  margin-top: 56px;
 }
 .target_info p {
   width: 40%;
@@ -614,6 +624,9 @@
 .img_learn {
   flex: 0 0 50%;
 }
+.img_learn img {
+  max-width: 100%;
+}
 
 .list_learn {
   flex: 0 0 50%;
@@ -628,7 +641,8 @@
   flex-direction: column;
   justify-content: center;
   background: #A38BFF;
-  padding: 6% 4%;
+  padding: 3% 4%;
+  margin: 4% 0;
   border-radius: 30px;
 }
 .list_learn ul li {
@@ -1125,6 +1139,7 @@
   .target_info {
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
   }
 
   .h_author, .author_wrap {
@@ -1292,6 +1307,16 @@
 @media screen and (max-width: 650px) {
   .logo_form {
     display: none;
+  }
+
+  .target_h {
+    margin-bottom: 4%;
+  }
+  .target_h .trg {
+    font-size: 32px;
+  }
+  .target_h span {
+    font-size: 32px;
   }
 
   .h_form span {
