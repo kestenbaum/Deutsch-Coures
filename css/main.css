@@ -23,18 +23,17 @@
 }
 
 .header {
-  display: flex;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
 }
 
 .header_tops {
   min-height: 44px;
   background: #333333;
   display: flex;
-  position: absolute;
   width: 100%;
   z-index: 2;
   top: 0;
@@ -184,10 +183,8 @@
 
 .header_main {
   display: flex;
-  margin-top: 44px;
   box-shadow: 0 10px 10px grey;
   min-height: 82px;
-  position: absolute;
   width: 100%;
   background: white;
   z-index: 2;
