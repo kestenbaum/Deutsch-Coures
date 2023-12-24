@@ -36,12 +36,12 @@
 
 .slick-prev {
   left: 0;
-  background: url("../img/arrow_prev.png") 0 0 no-repeat;
+  background: url("assets/arrow_prev.png") 0 0 no-repeat;
 }
 
 .slick-next {
   right: 0;
-  background: url("../img/arrow.png") 0 0 no-repeat;
+  background: url("assets/arrow.png") 0 0 no-repeat;
 }
 
 .slick-list {
